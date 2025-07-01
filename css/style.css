@@ -284,4 +284,7 @@ footer p {
   .forecast .forecast-item {
     width: 100%;
   }
+  .forecast .forecast-item.today .forecast-body .degree .number {
+    font-size: 50px;
+  }
 }
