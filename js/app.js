@@ -114,6 +114,7 @@ function displayData(data) {
 
 
 findBtn.addEventListener('click', e => {
+  e.preventDefault();
   if(searchInput.value.length > 0) {
     getWeatherInfo(searchInput.value);
   }
